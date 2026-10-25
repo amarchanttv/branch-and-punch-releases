@@ -4,7 +4,7 @@ Download the latest version from **[Releases](https://github.com/amarchanttv/mer
 
 ## Patch notes
 
-### v0.0.80
+### v0.0.81
 
 ```
 The music patch also no more apk downloads
@@ -21,6 +21,9 @@ Pueden revisar las canciones en el nuevo menu de musica en Coleccion
 
 Settings:
 Ahora cuenta con un menu para ver las notas de los ultimos 3 parthces
+
+Coleccion:
+Ahora el juego tiene un "Cómo jugar" con lo básico: se muestra una vez al empezar y después queda en Colección por si se te olvida cómo bloquear (pasa).
 ```
 
 ### v0.0.76
