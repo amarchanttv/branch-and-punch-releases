@@ -4,6 +4,25 @@ Download the latest version from **[Releases](https://github.com/amarchanttv/mer
 
 ## Patch notes
 
+### v0.0.77
+
+```
+The music patch also no more apk downloads
+Esta es oficialmente la ultima version que se descargara por aqui, de hoy en adelante el juego se actualiza cuando lo abren (yaaay)
+
+Cambios
+Engine:
+El juego tiene auto actualizador al abrir
+Optimizacion de imagenes y audio para reducir tamaño de la aplicacion (porque agregue mucha musica)
+
+Musica
+Cada personaje ahora tiene su propia cancion personalizada para su mapa
+Pueden revisar las canciones en el nuevo menu de musica en Coleccion
+
+Settings:
+Ahora cuenta con un menu para ver las notas de los ultimos 3 parthces
+```
+
 ### v0.0.76
 
 ```
@@ -52,37 +71,4 @@ En línea
 Otros
 - Si te rompen la barra de bloqueo y te ultean, la ulti te pega aunque bloquees, pero a mitad de daño.
 - Mejoras en la navegación del menú.
-```
-
-### v0.0.73
-
-```
-Merge Conflict v0.0.73
-
-Menús
-- Menú principal nuevo: primero PRESIONA START y luego todo ordenado por categorías (Jugar, En línea, Colección, Ajustes), cada opción con su imagen y una línea que explica qué es.
-- Nueva sección Luchadores: eliges a cualquiera de tus personajes en un carrusel y ves su ficha. Trae su arte, dificultad y estadísticas, cada habilidad jugándose en vivo en su escenario y una guía de cómo jugarlo paso a paso, con los controles con flechas y nombres de botón.
-- El juego ahora está en español o inglés (Ajustes > Idioma), y todos los textos caben en sus cuadros en los dos idiomas.
-- Ajustes renovados: volumen en barras, idioma y tu nombre de usuario.
-- La primera vez que entras eliges tu nombre de usuario (en el celular aparece el teclado), y lo puedes cambiar cuando quieras.
-- En todos los menús, mantener una dirección mueve el cursor seguido, y en el celular las diagonales ya no lo mueven para dos lados.
-- Pausa en el menú principal te pregunta si quieres cerrar el juego.
-
-Combate
-- Bloquear ya no es gratis: hay una barra de guardia que se gasta con cada golpe que bloqueas. Los golpes fuertes la gastan más, y machacar el mismo botón rápido ya no sirve. Se recupera sola, más rápido si atacas o avanzas, y no se recupera mientras retrocedes.
-- Si se rompe, quedas mareado hasta que te peguen, sin poder escapar del combo. Después pasas un rato sin guardia, en que bloquear solo te salva de caer pero te comes la mitad del daño. Romperle la guardia a alguien te da espíritu.
-- La CPU juega con la guardia: presiona cuando a ti se te está acabando y se escapa cuando se le acaba a ella.
-- Pantalla de pelea ordenada: los nombres van arriba de la vida y la barra de guardia se distingue de la de espíritu.
-- Cada especial tiene ahora un nombre distinto según el botón (ligero, medio o pesado), porque de verdad hacen cosas distintas.
-
-Personajes
-- Lagartula: después del Blood Yank ahora puedes seguir el combo antes de que alcancen a bloquear.
-- Pajaron: el Peck Drill medio vuelve a terminar con el picotazo final.
-- Sir Peckalot: Dark Cloud ahora es M-L-M y Rune Trap pasa a M-L-L, así las dos nubes quedan en espejo.
-- Ejecusaurio: en Paper Trail el gráfico de la bolsa ahora sí se desploma, y la cinta de cotizaciones pasa abajo.
-
-En línea
-- Nuevo menú después de cada pelea: ves tu elección y la de tu rival.
-- Si uno sale de la sala, salen los dos al tiro.
-- Se fueron los números de conexión que aparecían en pantalla.
 ```
