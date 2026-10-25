@@ -4,7 +4,7 @@ Download the latest version from **[Releases](https://github.com/amarchanttv/mer
 
 ## Patch notes
 
-### v0.0.78
+### v0.0.79
 
 ```
 The music patch also no more apk downloads
