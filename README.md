@@ -4,6 +4,24 @@ Download the latest version from **[Releases](https://github.com/amarchanttv/mer
 
 ## Patch notes
 
+### v0.0.82
+
+```
+Balance patch
+
+Los CPU utilizarán más el combo breaker (según dificultad)
+Easy arcade es un poco más fácil (estaba sobrenivelado, sorry a los jugadores nuevos)
+Sushiman Buff: sus grabs no pueden ser interrumpidos
+Sushiman Buff: Su ulti ahora recorre el mapa (hay que saltar para esquivar)
+Fih nerf: Su light attack no empuja, noquea o stunea. (no más spam)
+Fih nerf: Los CPU persiguen a un Fih que intente spamear (en serio, no más spam)
+Patiend buff: Daño ulti 42 --> 62
+Ejecusaurio: Bloquear su ulti gasta escudo, no vida (jajaj no sé cómo pasó)
+Te Banco buff: La posición de su ulti se modifica
+La CPU ya no se debiera quedar en la esquina haciendo nada
+Mejoras en las grabaciones para identificar (more logs more logs more logs)
+```
+
 ### v0.0.81
 
 ```
@@ -45,33 +63,4 @@ Entrenada para castigar mas el spam
 
 Otro
 Nuevo idioma disponible
-```
-
-### v0.0.75
-
-```
-Merge Conflict 0.0.75
-
-Personajes
-- Pequeño buff en el salto de todos los personajes, para counterear el spam de proyectiles.
-- Buff extra al salto de Onak... es un mono, claro que tiene que saltar más alto.
-- Fix visual a Onak: cuando lo noquean ya no queda al revés (¿por qué lo haría? duh).
-- Onak nerf: su ulti ya no es imbloqueable por el frente (nunca debió serlo lol).
-- Sushiman buff: camina y corre un poco más rápido, sus golpes salen un poco antes y se recupera más rápido cuando le bloquean. Su agarre llega un poco más lejos (el último nerf fue demasiado).
-
-CPU
-Mejoras en el cerebro de la CPU:
-- Ahora sí entiende cómo funciona la barra de bloqueo y juega más agresiva, en vez de encerrarse en la esquina.
-- Usa su ulti de forma más inteligente.
-- En Difícil y Brutal ya no lanza ataques al aire que no alcanzan.
-- Arcade en Difícil y Brutal: sube la dificultad de los primeros stages.
-
-En línea
-- Pueden pausar, porque lol, no se podía.
-- Mejoras de sincronización.
-- Las partidas online quedan registradas (se vienen cositas).
-
-Otros
-- Si te rompen la barra de bloqueo y te ultean, la ulti te pega aunque bloquees, pero a mitad de daño.
-- Mejoras en la navegación del menú.
 ```
