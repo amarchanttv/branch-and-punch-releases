@@ -1,29 +1,8 @@
-# Branch & Punch
+# Merge Conflict
 
-Download the latest version from **[Releases](https://github.com/amarchanttv/branch-and-punch-releases/releases/latest)**: the `.apk` for Android, the `Setup` `.exe` for PC. The game tells you when a new one is out.
+Download the latest version from **[Releases](https://github.com/amarchanttv/merge-conflict-releases/releases/latest)**: the `.apk` for Android, the `Setup` `.exe` for PC. The game tells you when a new one is out.
 
 ## Patch notes
-
-### v0.0.83
-
-```
-The Google Update
-
-Cambios
-- Rebranding completo (claramente siempre nos llamamos Branch & Punch, cualquier otro nombre que conozcan nunca existió)
-- Nuevo botón de ulti: No más fallar los comandos, ahora tienes un botón para poder ultear
-- La Claudia: Su rostro siempre fue una flor, no sé de qué están hablando
-- Sir Peckalot Buff: Ahora ultea (lol antes no sabía ultear)
-- Servidores Online: Los servidores funcionarán 24/7
-- Configuración para controles: Ahora podrás conectar cualquier control y configurar tus inputs
-- Redeem code: Estate atento, ahora puedes canjear códigos de recompensas
-- Políticas de privacidad: Te invitamos a revisar el nuevo menú de políticas de privacidad
-- Kosumi Purei Nerf: Al saltar solo tiene 5 lanzamientos de fuego haciendo match con sus shuriken de agua (no nos gusta el spam aquí)
-- Kosumi Purei Buff: Su ulti cuando es lanzada a distancia ahora sí hace el daño completo
-- Lao Ju Nerf: Su bending de jugo tiene un cooldown y estará en observación para ver si sigue roto
-- CPU Buff: Cada cerebro de CPU tiene un counter plan para cada personaje
-- Bug Fix: Bug ya no debiera quedarse en una esquina mirando el cielo
-```
 
 ### v0.0.82
 
@@ -63,4 +42,25 @@ Ahora cuenta con un menu para ver las notas de los ultimos 3 parthces
 
 Coleccion:
 Ahora el juego tiene un "Cómo jugar" con lo básico: se muestra una vez al empezar y después queda en Colección por si se te olvida cómo bloquear (pasa).
+```
+
+### v0.0.76
+
+```
+Llego el parche chino
+1. Nuevos personajes:
+Lao Ju se une
+
+2.Balance:
+Se elimina el doble salto, en su lugar todos los personajes saltan lo suficiente para pasar por arriba y cambiar de lado excepto mega tankes
+Se aumenta el salto de Onak
+Kosumi Purei tiene distinto alto de salto segun cosplay
+Se disminuye la velocidad general del golpe ligero dejando ventana de respuesta
+Sir peckalot (Nerf) golpe ligero y medio pegan significativamente menos, el ligero es mas lento, pero siguen cargando la misma energia (es un mago, no deberia pegar)
+
+CPU
+Entrenada para castigar mas el spam
+
+Otro
+Nuevo idioma disponible
 ```
