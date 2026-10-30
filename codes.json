@@ -72,6 +72,27 @@
     }
    }
   },
+  "cba11fd6b4d12d0060504a025752cb65e52e78d14b898ea1057cc43aa905ff55": {
+   "fighters": "all",
+   "medals": {
+    "kosumi": {
+     "3": 2
+    },
+    "lagartula": {
+     "2": 2,
+     "3": 2
+    },
+    "peckalot": {
+     "3": 2
+    },
+    "tortea": {
+     "0": 2,
+     "1": 2,
+     "2": 2,
+     "3": 2
+    }
+   }
+  },
   "f5acace193745618f73febace887e70c7dfeb6bf07d029eb074347bfa16f3ac3": {
    "fighters": [
     "kosumi"
