@@ -49,6 +49,28 @@
   },
   "b29f10ec373cf4c4e1748030007de489aea77b02abfc90e095b1c46748d438ad": {
    "fighters": "all"
+  },
+  "bc1a3421d8cb3ab4cfb8a4d1cdf2e48a6b339984469f5360d68eff5222548db4": {
+   "fighters": "all",
+   "medals": {
+    "boxer": {
+     "0": 2,
+     "1": 2
+    },
+    "kosumi": {
+     "0": 2,
+     "1": 2,
+     "2": 2,
+     "3": 2
+    },
+    "lao_ju": {
+     "0": 2
+    },
+    "onak": {
+     "0": 2,
+     "1": 2
+    }
+   }
   }
  }
 }
