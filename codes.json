@@ -1,5 +1,52 @@
 {
  "codes": {
+  "2e231dc1f2f14cc5cb4e668cda0608a58995ecf27a069421b604ce473412b7bb": {
+   "fighters": "all",
+   "medals": {
+    "boxer": {
+     "1": 1
+    },
+    "bug": {
+     "1": 1
+    },
+    "catsex": {
+     "1": 1
+    },
+    "ejecusaurio": {
+     "1": 1
+    },
+    "fih": {
+     "1": 1
+    },
+    "kosumi": {
+     "1": 2
+    },
+    "la_claudia": {
+     "1": 1
+    },
+    "lagartula": {
+     "1": 2
+    },
+    "lao_ju": {
+     "1": 2
+    },
+    "onak": {
+     "1": 2
+    },
+    "patiend": {
+     "1": 1
+    },
+    "peckalot": {
+     "1": 1
+    },
+    "sushiman": {
+     "1": 1
+    },
+    "tortea": {
+     "1": 2
+    }
+   }
+  },
   "b29f10ec373cf4c4e1748030007de489aea77b02abfc90e095b1c46748d438ad": {
    "fighters": "all"
   }
