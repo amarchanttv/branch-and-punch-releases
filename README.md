@@ -1,6 +1,6 @@
 # Branch & Punch
 
-Download the latest version from **[Releases](https://github.com/amarchanttv/branch-and-punch-releases/releases/latest)**: the `.apk` for Android, the `Setup` `.exe` for PC. The game tells you when a new one is out.
+Download the latest version from **[Releases](https://github.com/amarchanttv/branch-and-punch-releases/releases/latest)**: the `Setup` `.exe` for PC. The game tells you when a new one is out.
 
 ## Patch notes
 
