@@ -4,6 +4,33 @@ Download the latest version from **[Releases](https://github.com/amarchanttv/bra
 
 ## Patch notes
 
+### v0.0.84
+
+```
+Este está grande
+
+Daily Challenge
+- Todos los días habrá un desafío distinto. Jueguen diario y averigüen cuáles son los desafíos :3 No olviden compartir sus resultados (porque qué es un juego sin un poco de competitividad)
+
+Ranked
+- ¿Competitividad? ¿Alguien dijo competitividad? Fuck it... RANKED. Cada partida online que jueguen entre ustedes contará para el ranked. Revisen los leaderboards y asegúrense de estar por sobre sus amigos (y no se preocupen, sí hicimos algo para evitar el win trading)
+- Ojo, si no juegan al menos una partida de ranked a la semana, les va a bajar el ELO
+
+Fixes
+- Cuando pausas online, el menú de pausa ya no te persigue a todos lados
+- Cuando juegas online, el host ya no te puede dejar atrapado
+- Se arregló el orden del carrusel en online
+
+Buffs y nerfs
+- Tortea Nerf: Su agarre es mucho más lento (pueden saltarlo, ¿ok? Es re visible)
+- Tortea Nerf: Ahora sí pueden bloquear su ulti
+- Lao Ju Fix: Arreglados los problemas de salud en los daily challenges
+
+Visuals
+- Nuevo splash art al abrir el juego
+- El brillo de la master medal ahora se verá durante los primeros segundos de partida. Muestren su poder y denle envidia a la gente, porque ustedes lo tienen y otros no
+```
+
 ### v0.0.83
 
 ```
@@ -41,26 +68,4 @@ Ejecusaurio: Bloquear su ulti gasta escudo, no vida (jajaj no sé cómo pasó)
 Te Banco buff: La posición de su ulti se modifica
 La CPU ya no se debiera quedar en la esquina haciendo nada
 Mejoras en las grabaciones para identificar (more logs more logs more logs)
-```
-
-### v0.0.81
-
-```
-The music patch also no more apk downloads
-Esta es oficialmente la ultima version que se descargara por aqui, de hoy en adelante el juego se actualiza cuando lo abren (yaaay)
-
-Cambios
-Engine:
-El juego tiene auto actualizador al abrir
-Optimizacion de imagenes y audio para reducir tamaño de la aplicacion (porque agregue mucha musica)
-
-Musica
-Cada personaje ahora tiene su propia cancion personalizada para su mapa
-Pueden revisar las canciones en el nuevo menu de musica en Coleccion
-
-Settings:
-Ahora cuenta con un menu para ver las notas de los ultimos 3 parthces
-
-Coleccion:
-Ahora el juego tiene un "Cómo jugar" con lo básico: se muestra una vez al empezar y después queda en Colección por si se te olvida cómo bloquear (pasa).
 ```
