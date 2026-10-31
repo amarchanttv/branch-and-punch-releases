@@ -23,7 +23,7 @@
 
 <section id="en">
 <h1>Branch &amp; Punch: Privacy Policy</h1>
-<p class="date">Last updated: October 29, 2026</p>
+<p class="date">Last updated: October 31, 2026</p>
 
 <p>Branch &amp; Punch is a fighting game made by an independent developer. This page explains what
 the game sends from your device, why, and what you can do about it. Questions or requests:
@@ -31,10 +31,12 @@ the game sends from your device, why, and what you can do about it. Questions or
 
 <h2>The short version</h2>
 <ul>
-  <li>No ads, no analytics or tracking tools, no accounts, no in-app purchases.</li>
+  <li>No ads, no analytics or tracking tools, no in-app purchases.</li>
   <li>We never ask for your real name, email, phone number, contacts, photos or location.</li>
   <li>The game sends recordings of your matches so we can find bugs and balance the fighters.</li>
   <li>Online matches go through our server so the two players can play together.</li>
+  <li>Playing online gives you an anonymous ranked account: your online results and ranking are
+  kept on our server, and your username shows on the in-game leaderboard.</li>
   <li>We don't sell or share your data for advertising.</li>
 </ul>
 
@@ -65,6 +67,21 @@ join a room with a 4-digit code and to pass your inputs to the other player. Lik
 service, the server sees your IP address while you're connected. It doesn't store your IP
 address or your match messages after you leave.</p>
 
+<h3>Ranked play and the leaderboard</h3>
+<p>The first time you go online, our server gives your game an anonymous ranked account: a random
+account id and a secret key, kept on your device (no email, no password, nothing linked to your
+phone or to you). Every online match against another player is rated. For each account the server
+keeps: the account id, your username, a hidden rating, your wins, losses and number of matches,
+when you last played and which fighters you played. For each rated match it keeps the two account
+ids, the winner and score, the ratings before and after, the fighters played, the game version and
+the date. The in-game RANKING screen shows the usernames of the best players (with the fighter each
+does best with); only you see your own place, wins and losses. Players who haven't played a rated
+match in 4 weeks are taken off the leaderboard. This is stored on Microsoft Azure.</p>
+
+<h3>Daily challenges</h3>
+<p>Your daily challenge results, points and streak stay on your device. They're never sent anywhere
+(the Share button only copies a short text for you to paste where you want).</p>
+
 <h3>Buying the game</h3>
 <p>The game is bought through Google Play. Google handles the payment; we never see or receive your card or payment details. Google's own privacy policy covers that part.</p>
 
@@ -79,21 +96,24 @@ The Google Play version doesn't; Google Play updates it.</p>
 
 <h2>Services we use</h2>
 <ul>
-  <li><strong>Microsoft Azure</strong>: runs our online-play server. <a href="https://privacy.microsoft.com/privacystatement">Microsoft's privacy statement</a></li>
+  <li><strong>Microsoft Azure</strong>: runs our online-play server and stores ranked accounts and results. <a href="https://privacy.microsoft.com/privacystatement">Microsoft's privacy statement</a></li>
   <li><strong>Discord</strong>: stores match recordings in a private channel. <a href="https://discord.com/privacy">Discord's privacy policy</a></li>
   <li><strong>Google Play</strong>: sells the game and handles payments. <a href="https://policies.google.com/privacy">Google's privacy policy</a></li>
   <li><strong>GitHub</strong>: hosts the list of redeem codes and game downloads. <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a></li>
 </ul>
 
 <h2>How long we keep things</h2>
-<p>Match recordings are kept as long as they're useful for testing and improving the game. Your
-username and random player code stay on your device until you uninstall the game or clear its
-data.</p>
+<p>Match recordings are kept as long as they're useful for testing and improving the game. Ranked
+accounts and rated match results are kept while the leaderboard runs, so ratings stay correct.
+Your username, random player code and ranked account key stay on your device until you uninstall
+the game or clear its data.</p>
 
 <h2 id="delete">Deleting your data</h2>
 <p>Email <a href="mailto:angelo.marchantt@gmail.com">angelo.marchantt@gmail.com</a> with your
-username (and roughly when you played) and we'll delete your match recordings within 30 days.
-Uninstalling the game deletes everything stored on your device.</p>
+username (and roughly when you played) and we'll delete your match recordings and your ranked
+account within 30 days. Uninstalling the game deletes everything stored on your device (a ranked
+account left on our server without its key is no longer used, and it leaves the leaderboard after 4
+weeks).</p>
 
 <h2>Security</h2>
 <p>Everything the game sends travels encrypted (HTTPS / secure WebSocket).</p>
@@ -110,7 +130,7 @@ from them. If you think a child has sent us information, email us and we'll dele
 
 <section id="es">
 <h1>Branch &amp; Punch: Política de privacidad</h1>
-<p class="date">Última actualización: 29 de octubre de 2026</p>
+<p class="date">Última actualización: 31 de octubre de 2026</p>
 
 <p>Branch &amp; Punch es un juego de peleas hecho por un desarrollador independiente. Esta página
 explica qué envía el juego desde tu dispositivo, para qué, y qué puedes hacer al respecto. Dudas o
@@ -118,10 +138,12 @@ solicitudes: <a href="mailto:angelo.marchantt@gmail.com">angelo.marchantt@gmail.
 
 <h2>En corto</h2>
 <ul>
-  <li>Sin anuncios, sin herramientas de analítica o rastreo, sin cuentas, sin compras dentro del juego.</li>
+  <li>Sin anuncios, sin herramientas de analítica o rastreo, sin compras dentro del juego.</li>
   <li>Nunca pedimos tu nombre real, correo, teléfono, contactos, fotos ni ubicación.</li>
   <li>El juego envía grabaciones de tus partidas para encontrar errores y equilibrar a los peleadores.</li>
   <li>Las partidas en línea pasan por nuestro servidor para que los dos jugadores puedan jugar juntos.</li>
+  <li>Jugar en línea te da una cuenta de ranking anónima: tus resultados en línea y tu lugar en el
+  ranking se guardan en nuestro servidor, y tu nombre de usuario aparece en el ranking del juego.</li>
   <li>No vendemos ni compartimos tus datos para publicidad.</li>
 </ul>
 
@@ -153,6 +175,23 @@ unirse a una sala con un código de 4 dígitos y pasar tus botones al otro jugad
 servicio de internet, el servidor ve tu dirección IP mientras estás conectado. No guarda tu
 dirección IP ni los mensajes de la partida después de que sales.</p>
 
+<h3>Ranking y tabla de posiciones</h3>
+<p>La primera vez que entras en línea, nuestro servidor le da a tu juego una cuenta de ranking
+anónima: un id de cuenta al azar y una clave secreta, guardados en tu dispositivo (sin correo, sin
+contraseña, nada ligado a tu teléfono ni a ti). Cada partida en línea contra otro jugador cuenta
+para el ranking. De cada cuenta el servidor guarda: el id de cuenta, tu nombre de usuario, una
+puntuación oculta, tus victorias, derrotas y número de partidas, cuándo jugaste por última vez y
+con qué peleadores jugaste. De cada partida con ranking guarda los dos ids de cuenta, el ganador y
+el marcador, las puntuaciones de antes y después, los peleadores, la versión del juego y la fecha.
+La pantalla RANKING del juego muestra los nombres de usuario de los mejores jugadores (con el
+peleador con el que mejor les va); solo tú ves tu propio lugar, victorias y derrotas. Quien no juega
+una partida con ranking en 4 semanas sale de la tabla. Esto se guarda en Microsoft Azure.</p>
+
+<h3>Desafíos diarios</h3>
+<p>Tus resultados, puntos y racha de los desafíos diarios se quedan en tu dispositivo. Nunca se
+envían a ninguna parte (el botón Compartir solo copia un texto corto para que lo pegues donde
+quieras).</p>
+
 <h3>Comprar el juego</h3>
 <p>El juego se compra en Google Play. Google se encarga del pago; nosotros nunca vemos ni recibimos los datos de tu tarjeta o de pago. Esa parte la cubre la política de privacidad de Google.</p>
 
@@ -167,21 +206,24 @@ actualizaciones en GitHub. La versión de Google Play no; Google Play la actuali
 
 <h2>Servicios que usamos</h2>
 <ul>
-  <li><strong>Microsoft Azure</strong>: el servidor del juego en línea. <a href="https://privacy.microsoft.com/es-es/privacystatement">Declaración de privacidad de Microsoft</a></li>
+  <li><strong>Microsoft Azure</strong>: el servidor del juego en línea, y guarda las cuentas y resultados del ranking. <a href="https://privacy.microsoft.com/es-es/privacystatement">Declaración de privacidad de Microsoft</a></li>
   <li><strong>Discord</strong>: guarda las grabaciones en un canal privado. <a href="https://discord.com/privacy">Política de privacidad de Discord</a></li>
   <li><strong>Google Play</strong>: vende el juego y se encarga de los pagos. <a href="https://policies.google.com/privacy?hl=es">Política de privacidad de Google</a></li>
   <li><strong>GitHub</strong>: la lista de códigos de canje y las descargas del juego. <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">Declaración de privacidad de GitHub</a></li>
 </ul>
 
 <h2>Cuánto tiempo guardamos las cosas</h2>
-<p>Las grabaciones se guardan mientras sirvan para probar y mejorar el juego. Tu nombre de usuario y
-tu código de jugador se quedan en tu dispositivo hasta que desinstales el juego o borres sus
-datos.</p>
+<p>Las grabaciones se guardan mientras sirvan para probar y mejorar el juego. Las cuentas de
+ranking y los resultados se guardan mientras funcione el ranking, para que las puntuaciones sigan
+siendo correctas. Tu nombre de usuario, tu código de jugador y la clave de tu cuenta de ranking se
+quedan en tu dispositivo hasta que desinstales el juego o borres sus datos.</p>
 
 <h2 id="borrar">Borrar tus datos</h2>
 <p>Escribe a <a href="mailto:angelo.marchantt@gmail.com">angelo.marchantt@gmail.com</a> con tu
-nombre de usuario (y más o menos cuándo jugaste) y borraremos tus grabaciones en un plazo de 30
-días. Desinstalar el juego borra todo lo guardado en tu dispositivo.</p>
+nombre de usuario (y más o menos cuándo jugaste) y borraremos tus grabaciones y tu cuenta de
+ranking en un plazo de 30 días. Desinstalar el juego borra todo lo guardado en tu dispositivo (una
+cuenta de ranking que queda en nuestro servidor sin su clave ya no se usa, y sale de la tabla
+después de 4 semanas).</p>
 
 <h2>Seguridad</h2>
 <p>Todo lo que envía el juego viaja cifrado (HTTPS / WebSocket seguro).</p>
