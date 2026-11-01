@@ -4,6 +4,28 @@ Download the latest version from **[Releases](https://github.com/amarchanttv/bra
 
 ## Patch notes
 
+### v0.0.85
+
+```
+Abogato is here, en juego y IRL (?)
+
+Abogato
+- Abogato se une al roster. Fuerte no es, pero ojo, que construya un caso en tu contra
+
+Daily
+- Ahora el botón de compartir abre el compartir de Android, y cada tipo de daily tiene un arte especial
+
+Buffs y nerfs
+- Lao Ju nerf: no gana más spirit en modo bender
+- Lao Ju nerf: spirit gain al 0.75
+- Lao Ju nerf: su grab sale más lento (se iguala a Tortea, porque agarrar a distancia efectivamente es fuerte)
+- Lao Ju nerf: su ulti pega menos y es más fácil de esquivar
+- Sushiman buff: sus grabs no son interrumpibles
+- Sir Peckalot buff: Dark Cloud ciega más
+- Sir Peckalot buff: Rain Cloud ralentiza más
+- Sir Peckalot fix: CPU más inteligente
+```
+
 ### v0.0.84
 
 ```
@@ -50,22 +72,4 @@ Cambios
 - Lao Ju Nerf: Su bending de jugo tiene un cooldown y estará en observación para ver si sigue roto
 - CPU Buff: Cada cerebro de CPU tiene un counter plan para cada personaje
 - Bug Fix: Bug ya no debiera quedarse en una esquina mirando el cielo
-```
-
-### v0.0.82
-
-```
-Balance patch
-
-Los CPU utilizarán más el combo breaker (según dificultad)
-Easy arcade es un poco más fácil (estaba sobrenivelado, sorry a los jugadores nuevos)
-Sushiman Buff: sus grabs no pueden ser interrumpidos
-Sushiman Buff: Su ulti ahora recorre el mapa (hay que saltar para esquivar)
-Fih nerf: Su light attack no empuja, noquea o stunea. (no más spam)
-Fih nerf: Los CPU persiguen a un Fih que intente spamear (en serio, no más spam)
-Patiend buff: Daño ulti 42 --> 62
-Ejecusaurio: Bloquear su ulti gasta escudo, no vida (jajaj no sé cómo pasó)
-Te Banco buff: La posición de su ulti se modifica
-La CPU ya no se debiera quedar en la esquina haciendo nada
-Mejoras en las grabaciones para identificar (more logs more logs more logs)
 ```
