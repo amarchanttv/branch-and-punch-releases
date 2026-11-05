@@ -52,6 +52,12 @@
     }
    }
   },
+  "6075982e00a90e3df31a7ffefacb4bee09872098381a09361757768f941f3721": {
+   "pass": {
+    "month": "2026-11",
+    "points": 2500
+   }
+  },
   "b29f10ec373cf4c4e1748030007de489aea77b02abfc90e095b1c46748d438ad": {
    "fighters": "all"
   },
