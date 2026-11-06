@@ -4,7 +4,7 @@ Download the latest version from **[Releases](https://github.com/amarchanttv/bra
 
 ## Patch notes
 
-### v0.0.89
+### v0.0.90
 
 ```
 Menús táctiles
@@ -25,6 +25,10 @@ Arreglos
 - Los números del pase quedan centrados en sus círculos
 - La etapa del arcade ahora dice 2 DE 6 (antes estaba en inglés)
 - En la intro, el & queda encima de PUNCH, como en el logo
+
+Lagartula
+- Chupada Suprema ahora hace todo su daño contra la esquina (antes el calamar se quedaba con hambre)
+- Lagartula ya no cae al suelo mirando para el lado equivocado
 ```
 
 ### v0.0.88
