@@ -4,72 +4,66 @@ Download the latest version from **[Releases](https://github.com/amarchanttv/bra
 
 ## Patch notes
 
-### v0.0.85
+### v0.0.89
 
 ```
-Abogato is here, en juego y IRL (?)
+Menús táctiles
 
-Abogato
-- Abogato se une al roster. Fuerte no es, pero ojo, que construya un caso en tu contra
+Ahora los menús se pueden tocar con el dedo, como cualquier juego de celular (ya era hora).
 
-Daily
-- Ahora el botón de compartir abre el compartir de Android, y cada tipo de daily tiene un arte especial
+Menús táctiles
+- Toca cualquier opción para elegirla, arrastra las listas para moverlas y desliza para pasar páginas
+- La flecha arriba a la izquierda vuelve atrás, en todas las pantallas
+- El botón atrás del celular ya no cierra el juego, ahora vuelve atrás
+- El código de sala se escribe con el teclado del celular
+- El stick y los botones siguen funcionando en los menús, como siempre
+
+Arreglos
+- Los ajustes abiertos desde la pausa ya no quedan detrás de la pausa
+- Cambiar el idioma ya no hace parpadear el texto
+- El pase del menú solo se ve seleccionado cuando lo está
+- Los números del pase quedan centrados en sus círculos
+- La etapa del arcade ahora dice 2 DE 6 (antes estaba en inglés)
+- En la intro, el & queda encima de PUNCH, como en el logo
+```
+
+### v0.0.88
+
+```
+BIG UPDATE
+
+Llegó, llegó, llegaron los pases mensuales, así que a jugar sus dailies y a farmear puntos. El premio de este mes va en honor a Ramsecito (mi gato).
+
+Pases mensuales
+- En la parte superior del menú pueden ver su progreso del mes
+- Jueguen partidas, ganen niveles y desbloqueen recompensas
+
+Hablando de recompensas:
+- Flares: en selección de personaje podrán seleccionar de entre sus flares disponibles (porque yo quería que mi gato tuviera corazoncitos, ¿ok?)
+- También pueden elegir si quieren o no usar su Mega Glow (se vendrán más cositas en el futuro)
+- Íconos: ahora su perfil puede tener ícono, lo que nos lleva a la recompensa del mes, el primer ícono desbloqueable. Asegúrense de desbloquearlo, luego no se podrá canjear (¿o sí? $$)
+
+Arreglos
+- En las dailies el intento solo comienza después de elegir el personaje, no antes (hola Kano)
+
+Otros
+- 'Pero dev, estamos a 5 de noviembre, ¿significa que me perdí 5 días del pase?' No, por supuesto que no. Escríbeme por interno con la palabra 'Ramses' y te daremos un código con un avance del pase (veamos cuántos leen los parches)
+```
+
+### v0.0.87
+
+```
+The Abogato Buffs
 
 Buffs y nerfs
-- Lao Ju nerf: no gana más spirit en modo bender
-- Lao Ju nerf: spirit gain al 0.75
-- Lao Ju nerf: su grab sale más lento (se iguala a Tortea, porque agarrar a distancia efectivamente es fuerte)
-- Lao Ju nerf: su ulti pega menos y es más fácil de esquivar
-- Sushiman buff: sus grabs no son interrumpibles
-- Sir Peckalot buff: Dark Cloud ciega más
-- Sir Peckalot buff: Rain Cloud ralentiza más
-- Sir Peckalot fix: CPU más inteligente
-```
+- Abogato buff: su golpe ligero ahora es CROSS-SCRATCH, un arañazo con más alcance (es un gato, no un dedo)
+- Abogato buff: Briefcase Swing avanza al golpear y llega más lejos
+- Paracetamol buff: con la pastilla puesta solo una ulti lo detiene, y los agarres normales no rompen su ulti
+- Sir Peckalot buff: Magic Missiles ahora son 5 (antes 3) y Shadow Bomb hace más daño bloqueado
+- Sushiman nerf: su agarre Omakase tarda más en salir, así se ve venir
 
-### v0.0.84
-
-```
-Este está grande
-
-Daily Challenge
-- Todos los días habrá un desafío distinto. Jueguen diario y averigüen cuáles son los desafíos :3 No olviden compartir sus resultados (porque qué es un juego sin un poco de competitividad)
-
-Ranked
-- ¿Competitividad? ¿Alguien dijo competitividad? Fuck it... RANKED. Cada partida online que jueguen entre ustedes contará para el ranked. Revisen los leaderboards y asegúrense de estar por sobre sus amigos (y no se preocupen, sí hicimos algo para evitar el win trading)
-- Ojo, si no juegan al menos una partida de ranked a la semana, les va a bajar el ELO
-
-Fixes
-- Cuando pausas online, el menú de pausa ya no te persigue a todos lados
-- Cuando juegas online, el host ya no te puede dejar atrapado
-- Se arregló el orden del carrusel en online
-
-Buffs y nerfs
-- Tortea Nerf: Su agarre es mucho más lento (pueden saltarlo, ¿ok? Es re visible)
-- Tortea Nerf: Ahora sí pueden bloquear su ulti
-- Lao Ju Fix: Arreglados los problemas de salud en los daily challenges
-
-Visuals
-- Nuevo splash art al abrir el juego
-- El brillo de la master medal ahora se verá durante los primeros segundos de partida. Muestren su poder y denle envidia a la gente, porque ustedes lo tienen y otros no
-```
-
-### v0.0.83
-
-```
-The Google Update
-
-Cambios
-- Rebranding completo (claramente siempre nos llamamos Branch & Punch, cualquier otro nombre que conozcan nunca existió)
-- Nuevo botón de ulti: No más fallar los comandos, ahora tienes un botón para poder ultear
-- La Claudia: Su rostro siempre fue una flor, no sé de qué están hablando
-- Sir Peckalot Buff: Ahora ultea (lol antes no sabía ultear)
-- Servidores Online: Los servidores funcionarán 24/7
-- Configuración para controles: Ahora podrás conectar cualquier control y configurar tus inputs
-- Redeem code: Estate atento, ahora puedes canjear códigos de recompensas
-- Políticas de privacidad: Te invitamos a revisar el nuevo menú de políticas de privacidad
-- Kosumi Purei Nerf: Al saltar solo tiene 5 lanzamientos de fuego haciendo match con sus shuriken de agua (no nos gusta el spam aquí)
-- Kosumi Purei Buff: Su ulti cuando es lanzada a distancia ahora sí hace el daño completo
-- Lao Ju Nerf: Su bending de jugo tiene un cooldown y estará en observación para ver si sigue roto
-- CPU Buff: Cada cerebro de CPU tiene un counter plan para cada personaje
-- Bug Fix: Bug ya no debiera quedarse en una esquina mirando el cielo
+CPU
+- Todos escapan mejor de los agarres de Sushiman
+- Boxer, Onak y Pajarón ahora saben sus combos
+- Sir Peckalot guarda su barra para sus ultis
 ```
