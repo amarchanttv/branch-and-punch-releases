@@ -4,7 +4,7 @@ Download the latest version from **[Releases](https://github.com/amarchanttv/bra
 
 ## Patch notes
 
-### v0.0.91
+### v0.0.92
 
 ```
 Boneaparte
