@@ -4,6 +4,24 @@ Download the latest version from **[Releases](https://github.com/amarchanttv/bra
 
 ## Patch notes
 
+### v0.0.91
+
+```
+Boneaparte
+
+Boneaparte se une a la pelea.
+
+Arreglos
+- El jefe del arcade ahora sí hace daño con su definitiva (te agarraba muy lejos y todos sus golpes pasaban de largo)
+- Agacharse y saltar rápido ya no saca un especial sin querer
+- Reiniciar un desafío diario ahora lo empieza desde la primera pelea y cuenta como otro intento (antes se podía repetir solo la última pelea del Gauntlet)
+
+CPU
+- Si nadie ataca, la CPU ya no se queda mirando: empieza a pelear
+- Endpoint y La Claudia se acercan a pelear cuando no tienen espíritu para sus trampas y cartas
+- Abogato arma su caso con más ganas y ya no sigue el combo con el rival en el suelo
+```
+
 ### v0.0.90
 
 ```
@@ -52,22 +70,4 @@ Arreglos
 
 Otros
 - 'Pero dev, estamos a 5 de noviembre, ¿significa que me perdí 5 días del pase?' No, por supuesto que no. Escríbeme por interno con la palabra 'Ramses' y te daremos un código con un avance del pase (veamos cuántos leen los parches)
-```
-
-### v0.0.87
-
-```
-The Abogato Buffs
-
-Buffs y nerfs
-- Abogato buff: su golpe ligero ahora es CROSS-SCRATCH, un arañazo con más alcance (es un gato, no un dedo)
-- Abogato buff: Briefcase Swing avanza al golpear y llega más lejos
-- Paracetamol buff: con la pastilla puesta solo una ulti lo detiene, y los agarres normales no rompen su ulti
-- Sir Peckalot buff: Magic Missiles ahora son 5 (antes 3) y Shadow Bomb hace más daño bloqueado
-- Sushiman nerf: su agarre Omakase tarda más en salir, así se ve venir
-
-CPU
-- Todos escapan mejor de los agarres de Sushiman
-- Boxer, Onak y Pajarón ahora saben sus combos
-- Sir Peckalot guarda su barra para sus ultis
 ```
