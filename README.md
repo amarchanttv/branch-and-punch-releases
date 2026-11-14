@@ -4,6 +4,71 @@ Download the latest version from **[Releases](https://github.com/amarchanttv/bra
 
 ## Patch notes
 
+### v0.0.93
+
+```
+Le patch du français et de l'équilibrage
+
+Balance
+
+Boxer
+- Jab: 25% más rápido, daño 6 → 5
+- Straight: 13% más rápido, daño 10 → 9
+- Uppercut: 8% más rápido, daño 15 → 14
+- Low Jab: 25% más rápido, daño 5 → 4
+- Shin Hook: 14% más rápido, daño 8 → 7
+- Rising Uppercut: daño 14 → 13
+
+Ejecusaurio
+- Claw Jab: 25% más lento, daño 6 → 7
+- Lunge: 13% más lento, daño 10 → 11
+- Swipe: 25% más lento, daño 15 → 19
+- Quarterly Poke: 25% más lento, daño 5 → 6
+- Downsizing Sweep: 14% más lento, daño 8 → 9
+- Hostile Takeover: 20% más lento, daño 14 → 16
+
+Te Banco
+- Tag Flick: 25% más lento
+- Kick: 13% más lento
+- Teabag Whip: 17% más lento, daño 15 → 14
+- Low Steep: 25% más lento
+- Spill Sweep: 14% más lento
+- Boiling Point: 20% más lento, daño 14 → 13
+
+La Claudia
+- Shovel Poke: 25% más lento, daño 6 → 7
+- Shovel Slam: 17% más lento, daño 15 → 18
+- Dig In: 25% más lento, daño 5 → 6
+- Excavator: 20% más lento, daño 14 → 16
+
+Lagartula
+- Claw Jab: 25% más rápido, daño 6 → 5
+- Blood Rake: 13% más rápido, daño 10 → 9
+- Low Claw: 25% más rápido, daño 5 → 4
+- Ankle Rake: 14% más rápido, daño 8 → 7
+
+Onak
+- Front Kick: 13% más rápido, daño 10 → 11
+- Double Axe Handle: 8% más lento, daño 15 → 17
+- Shin Kick: 14% más rápido, daño 8 → 9
+- Leg Sweep: 40% más lento, daño 14 → 16
+
+Boneaparte
+- Si conecta dos especiales distintos seguidos en el mismo combo, el segundo hace 45% más daño
+
+CPU
+- Boneaparte con espadas a veces se queda abajo después de ENVOL y remata con MOULINET o PIROUETTE
+
+Arreglos
+- Ya no se puede empujar caminando a un rival que está en el suelo: La Claudia lo usaba para un loop infinito contra el muro de su definitiva
+- Patiend ahora cae de espaldas
+- En el teléfono, la pantalla de inicio dice TOCA PARA EMPEZAR
+- En el pase, las líneas bajo los premios ya no tapan los nombres
+
+Otros
+- Nuevo idioma disponible: francés
+```
+
 ### v0.0.92
 
 ```
@@ -47,27 +112,4 @@ Arreglos
 Lagartula
 - Chupada Suprema ahora hace todo su daño contra la esquina (antes el calamar se quedaba con hambre)
 - Lagartula ya no cae al suelo mirando para el lado equivocado
-```
-
-### v0.0.88
-
-```
-BIG UPDATE
-
-Llegó, llegó, llegaron los pases mensuales, así que a jugar sus dailies y a farmear puntos. El premio de este mes va en honor a Ramsecito (mi gato).
-
-Pases mensuales
-- En la parte superior del menú pueden ver su progreso del mes
-- Jueguen partidas, ganen niveles y desbloqueen recompensas
-
-Hablando de recompensas:
-- Flares: en selección de personaje podrán seleccionar de entre sus flares disponibles (porque yo quería que mi gato tuviera corazoncitos, ¿ok?)
-- También pueden elegir si quieren o no usar su Mega Glow (se vendrán más cositas en el futuro)
-- Íconos: ahora su perfil puede tener ícono, lo que nos lleva a la recompensa del mes, el primer ícono desbloqueable. Asegúrense de desbloquearlo, luego no se podrá canjear (¿o sí? $$)
-
-Arreglos
-- En las dailies el intento solo comienza después de elegir el personaje, no antes (hola Kano)
-
-Otros
-- 'Pero dev, estamos a 5 de noviembre, ¿significa que me perdí 5 días del pase?' No, por supuesto que no. Escríbeme por interno con la palabra 'Ramses' y te daremos un código con un avance del pase (veamos cuántos leen los parches)
 ```
