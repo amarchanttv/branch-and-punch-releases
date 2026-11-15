@@ -4,7 +4,7 @@ Download the latest version from **[Releases](https://github.com/amarchanttv/bra
 
 ## Patch notes
 
-### v0.0.93
+### v0.0.94
 
 ```
 Le patch du français et de l'équilibrage
@@ -67,6 +67,10 @@ Arreglos
 
 Otros
 - Nuevo idioma disponible: francés
+
+Diario
+- Nuevo modo: KAIJU. Eres el gigante del día contra rivales al azar, cada uno más difícil y sin recuperar vida
+- Las tarjetas para compartir ahora muestran tu ícono y tu nombre arriba
 ```
 
 ### v0.0.92
