@@ -4,6 +4,25 @@ Download the latest version from **[Releases](https://github.com/amarchanttv/bra
 
 ## Patch notes
 
+### v0.0.95
+
+```
+El parche del lobo
+
+Nuevo personaje
+- LYKOS se une
+
+Balance
+- Nueva categoría ULTRA COMBO: un especial que conecta se puede cancelar en otro especial (cada uno una vez por combo, y la ulti puede cerrar la cadena)
+- Boxer, Onak y Boneaparte (solo con los sables) son ULTRA COMBO
+
+CPU
+- Usa los ULTRA COMBO: Fácil nunca, Normal una vez por combo, Difícil dos, Brutal sin límite
+- Contra Sushiman ya no salta cada vez que se acerca (se comía todos los cabezazos)
+- Sushiman agarra a quien camina hacia él y tira golpes para que lo bloqueen
+- Sir Peckalot lanza hechizos el doble de seguido y ya no se queda guardando maná sin hacer nada
+```
+
 ### v0.0.94
 
 ```
@@ -89,31 +108,4 @@ CPU
 - Si nadie ataca, la CPU ya no se queda mirando: empieza a pelear
 - Endpoint y La Claudia se acercan a pelear cuando no tienen espíritu para sus trampas y cartas
 - Abogato arma su caso con más ganas y ya no sigue el combo con el rival en el suelo
-```
-
-### v0.0.90
-
-```
-Menús táctiles
-
-Ahora los menús se pueden tocar con el dedo, como cualquier juego de celular (ya era hora).
-
-Menús táctiles
-- Toca cualquier opción para elegirla, arrastra las listas para moverlas y desliza para pasar páginas
-- La flecha arriba a la izquierda vuelve atrás, en todas las pantallas
-- El botón atrás del celular ya no cierra el juego, ahora vuelve atrás
-- El código de sala se escribe con el teclado del celular
-- El stick y los botones siguen funcionando en los menús, como siempre
-
-Arreglos
-- Los ajustes abiertos desde la pausa ya no quedan detrás de la pausa
-- Cambiar el idioma ya no hace parpadear el texto
-- El pase del menú solo se ve seleccionado cuando lo está
-- Los números del pase quedan centrados en sus círculos
-- La etapa del arcade ahora dice 2 DE 6 (antes estaba en inglés)
-- En la intro, el & queda encima de PUNCH, como en el logo
-
-Lagartula
-- Chupada Suprema ahora hace todo su daño contra la esquina (antes el calamar se quedaba con hambre)
-- Lagartula ya no cae al suelo mirando para el lado equivocado
 ```
