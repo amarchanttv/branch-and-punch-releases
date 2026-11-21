@@ -23,7 +23,7 @@
 
 <section id="en">
 <h1>Branch &amp; Punch: Privacy Policy</h1>
-<p class="date">Last updated: October 31, 2026</p>
+<p class="date">Last updated: November 21, 2026</p>
 
 <p>Branch &amp; Punch is a fighting game made by an independent developer. This page explains what
 the game sends from your device, why, and what you can do about it. Questions or requests:
@@ -35,6 +35,8 @@ the game sends from your device, why, and what you can do about it. Questions or
   <li>We never ask for your real name, email, phone number, contacts, photos or location.</li>
   <li>The game sends recordings of your matches so we can find bugs and balance the fighters.</li>
   <li>Online matches go through our server so the two players can play together.</li>
+  <li>If you turn on OPEN TO FIGHT on Android, our server keeps your phone's notification address
+  (from Google) so it can tell you when someone wants a fight. Turning it off removes it.</li>
   <li>Playing online gives you an anonymous ranked account: your online results and ranking are
   kept on our server, and your username shows on the in-game leaderboard.</li>
   <li>We don't sell or share your data for advertising.</li>
@@ -62,10 +64,25 @@ device, and balance the fighters. If a recording can't be sent (for example, no 
 on your device and is sent the next time you start the game, then removed from your device.</p>
 
 <h3>Online play</h3>
-<p>When you play online, your game connects to our server (hosted on Microsoft Azure) to create or
-join a room with a 4-digit code and to pass your inputs to the other player. Like any internet
-service, the server sees your IP address while you're connected. It doesn't store your IP
-address or your match messages after you leave.</p>
+<p>When you play online, your game connects to our server (hosted on Microsoft Azure) to open or
+join a table, to be matched with another player, and to pass your inputs to the other player. While
+a table is open, the server lists it with your username and player icon for other players to join.
+Like any internet service, the server sees your IP address while you're connected. It doesn't store
+your IP address or your match messages after you leave.</p>
+
+<h3>OPEN TO FIGHT and notifications</h3>
+<p>OPEN TO FIGHT is a switch in PLAY ONLINE. While it's on and the game is open, the server knows you
+are looking for a fight (your ranked account id, username, player icon, game version and best
+fighter) so it can match you with another player; this is kept only while you're connected.</p>
+<p>On Android, turning it on also asks your permission to show notifications. If you allow it, the
+game gets a notification address for your phone from Google Firebase Cloud Messaging (a random
+token, not your phone number or any account) and sends it to our server, with your game's language.
+While the switch stays on, the server keeps that token with your ranked account id, username, player
+icon, game version and best fighter, and uses it only to send you a notification when someone is
+looking for a fight. It also keeps how many offers in a row went unanswered (3 in a row turn the
+switch off) and short waits so you aren't offered the same player again right away. Turning the
+switch off, the switch turning itself off, or uninstalling the game (Google tells the server the
+token no longer works) removes the token from our server. The PC version never sends one.</p>
 
 <h3>Ranked play and the leaderboard</h3>
 <p>The first time you go online, our server gives your game an anonymous ranked account: a random
@@ -98,6 +115,7 @@ The Google Play version doesn't; Google Play updates it.</p>
 <ul>
   <li><strong>Microsoft Azure</strong>: runs our online-play server and stores ranked accounts and results. <a href="https://privacy.microsoft.com/privacystatement">Microsoft's privacy statement</a></li>
   <li><strong>Discord</strong>: stores match recordings in a private channel. <a href="https://discord.com/privacy">Discord's privacy policy</a></li>
+  <li><strong>Google Firebase Cloud Messaging</strong>: delivers OPEN TO FIGHT notifications to Android phones. <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a></li>
   <li><strong>Google Play</strong>: sells the game and handles payments. <a href="https://policies.google.com/privacy">Google's privacy policy</a></li>
   <li><strong>GitHub</strong>: hosts the list of redeem codes and game downloads. <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a></li>
 </ul>
@@ -105,8 +123,8 @@ The Google Play version doesn't; Google Play updates it.</p>
 <h2>How long we keep things</h2>
 <p>Match recordings are kept as long as they're useful for testing and improving the game. Ranked
 accounts and rated match results are kept while the leaderboard runs, so ratings stay correct.
-Your username, random player code and ranked account key stay on your device until you uninstall
-the game or clear its data.</p>
+OPEN TO FIGHT notification tokens are kept only while the switch is on. Your username, random player
+code and ranked account key stay on your device until you uninstall the game or clear its data.</p>
 
 <h2 id="delete">Deleting your data</h2>
 <p>Email <a href="mailto:angelo.marchantt@gmail.com">angelo.marchantt@gmail.com</a> with your
@@ -130,7 +148,7 @@ from them. If you think a child has sent us information, email us and we'll dele
 
 <section id="es">
 <h1>Branch &amp; Punch: Política de privacidad</h1>
-<p class="date">Última actualización: 31 de octubre de 2026</p>
+<p class="date">Última actualización: 21 de noviembre de 2026</p>
 
 <p>Branch &amp; Punch es un juego de peleas hecho por un desarrollador independiente. Esta página
 explica qué envía el juego desde tu dispositivo, para qué, y qué puedes hacer al respecto. Dudas o
@@ -142,6 +160,8 @@ solicitudes: <a href="mailto:angelo.marchantt@gmail.com">angelo.marchantt@gmail.
   <li>Nunca pedimos tu nombre real, correo, teléfono, contactos, fotos ni ubicación.</li>
   <li>El juego envía grabaciones de tus partidas para encontrar errores y equilibrar a los peleadores.</li>
   <li>Las partidas en línea pasan por nuestro servidor para que los dos jugadores puedan jugar juntos.</li>
+  <li>Si activas BUSCO PELEA en Android, nuestro servidor guarda la dirección de notificaciones de tu
+  teléfono (de Google) para avisarte cuando alguien quiere pelear. Al desactivarlo se borra.</li>
   <li>Jugar en línea te da una cuenta de ranking anónima: tus resultados en línea y tu lugar en el
   ranking se guardan en nuestro servidor, y tu nombre de usuario aparece en el ranking del juego.</li>
   <li>No vendemos ni compartimos tus datos para publicidad.</li>
@@ -170,10 +190,28 @@ enviar (por ejemplo, sin internet), espera en tu dispositivo y se envía la pró
 juego, y después se borra de tu dispositivo.</p>
 
 <h3>Juego en línea</h3>
-<p>Cuando juegas en línea, tu juego se conecta a nuestro servidor (en Microsoft Azure) para crear o
-unirse a una sala con un código de 4 dígitos y pasar tus botones al otro jugador. Como cualquier
-servicio de internet, el servidor ve tu dirección IP mientras estás conectado. No guarda tu
-dirección IP ni los mensajes de la partida después de que sales.</p>
+<p>Cuando juegas en línea, tu juego se conecta a nuestro servidor (en Microsoft Azure) para abrir o
+unirse a una mesa, para emparejarte con otro jugador y para pasar tus botones al otro jugador.
+Mientras una mesa está abierta, el servidor la muestra con tu nombre de usuario y tu ícono para que
+otros jugadores se unan. Como cualquier servicio de internet, el servidor ve tu dirección IP
+mientras estás conectado. No guarda tu dirección IP ni los mensajes de la partida después de que
+sales.</p>
+
+<h3>BUSCO PELEA y notificaciones</h3>
+<p>BUSCO PELEA es un interruptor en JUGAR EN LÍNEA. Mientras está activado y el juego está abierto,
+el servidor sabe que buscas pelea (tu id de cuenta de ranking, nombre de usuario, ícono, versión
+del juego y mejor peleador) para emparejarte con otro jugador; esto se guarda solo mientras estás
+conectado.</p>
+<p>En Android, al activarlo el juego también te pide permiso para mostrar notificaciones. Si lo
+permites, el juego obtiene de Google Firebase Cloud Messaging una dirección de notificaciones para
+tu teléfono (un código al azar, no tu número ni ninguna cuenta) y la envía a nuestro servidor, con
+el idioma de tu juego. Mientras el interruptor siga activado, el servidor guarda ese código con tu
+id de cuenta de ranking, nombre de usuario, ícono, versión del juego y mejor peleador, y lo usa solo
+para avisarte cuando alguien busca pelea. También guarda cuántas ofertas seguidas quedaron sin
+respuesta (3 seguidas desactivan el interruptor) y esperas cortas para no ofrecerte al mismo
+jugador enseguida. Desactivar el interruptor, que se desactive solo, o desinstalar el juego (Google
+le avisa al servidor que el código ya no sirve) borra el código de nuestro servidor. La versión de
+PC nunca envía uno.</p>
 
 <h3>Ranking y tabla de posiciones</h3>
 <p>La primera vez que entras en línea, nuestro servidor le da a tu juego una cuenta de ranking
@@ -208,6 +246,7 @@ actualizaciones en GitHub. La versión de Google Play no; Google Play la actuali
 <ul>
   <li><strong>Microsoft Azure</strong>: el servidor del juego en línea, y guarda las cuentas y resultados del ranking. <a href="https://privacy.microsoft.com/es-es/privacystatement">Declaración de privacidad de Microsoft</a></li>
   <li><strong>Discord</strong>: guarda las grabaciones en un canal privado. <a href="https://discord.com/privacy">Política de privacidad de Discord</a></li>
+  <li><strong>Google Firebase Cloud Messaging</strong>: entrega las notificaciones de BUSCO PELEA a teléfonos Android. <a href="https://firebase.google.com/support/privacy">Información de privacidad de Firebase</a></li>
   <li><strong>Google Play</strong>: vende el juego y se encarga de los pagos. <a href="https://policies.google.com/privacy?hl=es">Política de privacidad de Google</a></li>
   <li><strong>GitHub</strong>: la lista de códigos de canje y las descargas del juego. <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">Declaración de privacidad de GitHub</a></li>
 </ul>
@@ -215,7 +254,8 @@ actualizaciones en GitHub. La versión de Google Play no; Google Play la actuali
 <h2>Cuánto tiempo guardamos las cosas</h2>
 <p>Las grabaciones se guardan mientras sirvan para probar y mejorar el juego. Las cuentas de
 ranking y los resultados se guardan mientras funcione el ranking, para que las puntuaciones sigan
-siendo correctas. Tu nombre de usuario, tu código de jugador y la clave de tu cuenta de ranking se
+siendo correctas. Los códigos de notificación de BUSCO PELEA se guardan solo mientras el interruptor
+está activado. Tu nombre de usuario, tu código de jugador y la clave de tu cuenta de ranking se
 quedan en tu dispositivo hasta que desinstales el juego o borres sus datos.</p>
 
 <h2 id="borrar">Borrar tus datos</h2>
