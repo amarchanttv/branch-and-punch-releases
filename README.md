@@ -4,6 +4,45 @@ Download the latest version from **[Releases](https://github.com/amarchanttv/bra
 
 ## Patch notes
 
+### v0.0.96
+
+```
+El parche online (ya casi estamos live)
+
+Nuevo online
+Cambiamos cómo se juega en línea. Ya no hay códigos de sala. Ahora funciona así:
+- Entra a EN LÍNEA > JUGAR EN LÍNEA. Arriba está BUSCO PELEA: ponlo en SÍ
+- Con BUSCO PELEA en SÍ puedes salir y jugar lo que quieras (Arcade, Diario, lo que sea). Mientras tanto el juego te busca un rival, y en el menú principal aparece BUSCO PELEA bajo el título para que sepas que sigue buscando
+- Cuando encuentra a alguien te aparece un aviso con su nombre. Si los dos aceptan, pelean. Si no puedes, eliges AHORA NO
+- Si dejas 3 avisos seguidos sin responder, o dices AHORA NO 5 veces seguidas, BUSCO PELEA se apaga solo
+- Si te llega un rival en medio del Arcade y aceptas, no pierdes nada: esa pelea queda guardada desde su inicio, sin gastar continues, y el oro sigue en juego
+- En Android te llega una notificación cuando alguien busca pelea, aunque tengas el juego cerrado. La tocas y se abre el juego con el aviso
+- La otra forma son las MESAS: en JUGAR EN LÍNEA eliges ABRIR UNA MESA y tu mesa aparece en la lista de todos. Cuando alguien entra, la pelea empieza sola
+- Para jugar con un amigo: abre una mesa y que entre a la tuya
+- Una mesa se cierra si pasan 10 minutos sin pelea o si quien la abrió se va
+
+Balance
+- Ahora se puede hacer BREAKER en el aire: si te están haciendo un combo aéreo puedes romperlo y caes al suelo (los combos aéreos eran imparables). Salir de un bloqueo con BREAKER sigue siendo solo en el suelo
+- LYKOS: HOWL ahora empieza con un dash hacia adelante antes de la patada
+- LYKOS: ALPHA AND OMEGA, daño total 59 → 86
+- LYKOS: DEN STORM bloqueado hace el doble de daño a la barra de guardia, mismo daño a la vida
+
+CPU
+- LYKOS usa HOWL para entrar desde media distancia y lo combina después de DOUBLE FANG
+- LYKOS tira DEN STORM contra quien bloquea mucho, sobre todo cuando le va a romper la guardia
+- Contra LYKOS, con la guardia gastada se alejan de DEN STORM
+
+Arreglos
+- Los combos aéreos contra la esquina ya no se cortan solos
+- La ulti de Fih ya no te sigue al menú si ganas la pelea dentro de ella
+
+Otros
+- Medallas nuevas: cada dificultad tiene su propio diseño
+- Nueva página EN LÍNEA en CÓMO JUGAR
+- Descripciones más cortas en los modos del Diario
+- Política de privacidad actualizada por las notificaciones
+```
+
 ### v0.0.95
 
 ```
@@ -90,22 +129,4 @@ Otros
 Diario
 - Nuevo modo: KAIJU. Eres el gigante del día contra rivales al azar, cada uno más difícil y sin recuperar vida
 - Las tarjetas para compartir ahora muestran tu ícono y tu nombre arriba
-```
-
-### v0.0.92
-
-```
-Boneaparte
-
-Boneaparte se une a la pelea.
-
-Arreglos
-- El jefe del arcade ahora sí hace daño con su definitiva (te agarraba muy lejos y todos sus golpes pasaban de largo)
-- Agacharse y saltar rápido ya no saca un especial sin querer
-- Reiniciar un desafío diario ahora lo empieza desde la primera pelea y cuenta como otro intento (antes se podía repetir solo la última pelea del Gauntlet)
-
-CPU
-- Si nadie ataca, la CPU ya no se queda mirando: empieza a pelear
-- Endpoint y La Claudia se acercan a pelear cuando no tienen espíritu para sus trampas y cartas
-- Abogato arma su caso con más ganas y ya no sigue el combo con el rival en el suelo
 ```
